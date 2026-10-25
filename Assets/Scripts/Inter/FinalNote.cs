@@ -30,7 +30,7 @@ public class FinalNote : MonoBehaviour, IInteractable
         {
             noteText.gameObject.SetActive(false);
             isNoteOpen = false;
-            PlayerMovement.Instance.speed = 8f;
+            PlayerMovement.Instance.speed = 5f;
             PlayerController.Instance.mouseSensitivity = 100f;
             HeadBobSys.Instance.Frequency = 10f;
             HeadBobSys.Instance.Amount = 0.002f;
